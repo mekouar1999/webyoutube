@@ -1,3 +1,53 @@
-h1{
-    text-align: center;
+body{
+    background-color: black;
+}
+
+.rectangle{
+    height: 2px;
+    width: 25px;
+    background-color: white;
+}
+
+.navbargauche{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rond{
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.navbardroite{
+    display: flex;
+    gap: 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content:  space-between;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.divmilieu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    background-color: inherit;
+    border: 1px solid gray;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.loupe{
+    color: white;
+    margin-left: 1rem;
 }
